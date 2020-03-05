@@ -11,6 +11,7 @@ namespace ScrabbleScore
       string userInput = Console.ReadLine();
       int score = ScrabbleScorer.Score(userInput);
       Console.WriteLine($"'{userInput}' is worth {score} points.");
+      Main();
     }
   }
 }
