@@ -36,15 +36,16 @@ Download or clone the repository to run this program locally! _This program requ
 <details>
   <summary>Expand specs for this project</summary>
 
-| Spec                                                                           | Example Input                                   | Expected Output |
-| :----------------------------------------------------------------------------- | :---------------------------------------------- | :-------------- |
-| user types in a word, program returns number                                   |                                                 |                 |
-| program returns 1 for certain letters                                          | "a"                                             | 1               |
-| program correctly counts letters in a word                                     | "rat"                                           | 3               |
-| program correctly gives a "bonus" score for certain letters                    | "q"                                             | 10              |
-| program correctly adds up all letters with differeing values and returns total | "dog"                                           | 5               |
-| <!--                                                                           | exception handling: user enters one letter word | "b"             | "nope" |
-| exception handling: user enters non-letter characters                          | "b! a!"                                         | "nope"          | --> |
+| Spec                                                                          | Example Input | Expected Output |
+| :---------------------------------------------------------------------------- | :------------ | :-------------- |
+| user types in a word, program returns number                                  |               |                 |
+| program returns 1 for certain letters                                         | "a"           | 1               |
+| program correctly counts letters in a word                                    | "rat"         | 3               |
+| program correctly gives a "bonus" score for certain letters                   | "q"           | 10              |
+| program correctly adds up all letters with differing values and returns total | "dog"         | 5               |
+
+<!-- |                                                                          | exception handling: user enters one letter word | "b"             | "nope" |
+| exception handling: user enters non-letter characters                         | "b! a!"                                         | "nope"          | -->
 
 </details>
 <details>
