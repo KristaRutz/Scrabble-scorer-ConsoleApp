@@ -17,6 +17,14 @@ namespace ScrabbleScore.Tests
       //assert
       Assert.AreEqual(1, result);
     }
+    [TestMethod]
+    public void Score_ScoreReturnsAnInt_Int()
+    {
+      //arrange
+      // act
+      //assert
+      Assert.AreEqual(1, ScrabbleScorer.Score("Test"));
+    }
 
   }
 }
