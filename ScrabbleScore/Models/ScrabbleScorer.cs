@@ -10,7 +10,7 @@ namespace ScrabbleScore.Models
     {
       // userword.length 
       // 
-      return 1;
+      return userword.Length;
     }
   }
 }
