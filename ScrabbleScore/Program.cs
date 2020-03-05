@@ -1,4 +1,5 @@
 using System;
+using ScrabbleScore.Models;
 
 namespace ScrabbleScore
 {
@@ -8,7 +9,7 @@ namespace ScrabbleScore
     {
       Console.WriteLine("Enter your word to calculate it's Scrabble score.");
       string userInput = Console.ReadLine();
-      int score = 0;
+      int score = ScrabbleScorer.Score(userInput);
       Console.WriteLine($"'{userInput}' is worth {score} points.");
     }
   }
