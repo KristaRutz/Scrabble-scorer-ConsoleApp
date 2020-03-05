@@ -1,6 +1,6 @@
 # Scrabble Scorer (C# Console Application)
 
-#### A An console-based application to determine Scrabble points where the user can input a word and see the score, hosted on [GitHub](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp). _Last Updated 03.05.2020._
+#### A console-based application to determine Scrabble points where the user can input a word and see the score, hosted on [GitHub](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp). _Last Updated 03.05.2020._
 
 #### By _**Krista Rutz, Steven Fleming**_
 
@@ -16,12 +16,12 @@ Download or clone the repository to run this program locally! _This program requ
 - Download or clone this repo.
   - **To Download ZIP:**
     - Select "Download" on the [GitHub Repository](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp) site
-    - Once downloaded, open the ZIP and extract files. The new folder will be created as 'ProjectName.Solution'.
+    - Once downloaded, open the ZIP and extract files. The new folder will be created as 'Scrabble-Scorer-...'.
   - **To Clone:**
     - Clone from command line into your Desktop: `$ git clone https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp.git`
-    - The new directory will be created as 'Desktop/ProjectName.Solution'.
+    - The new directory will be created as 'Desktop/Scrabble-scorer-ConsoleApp'.
 - Once you have stored the files locally, execute the following commands.
-  - Navigate to the application directory: `$ cd ProjectName.Solution/ProjectName`
+  - Navigate to the application directory: `$ cd Scrabble-scorer-ConsoleApp/ScrabbleScore`
   - `dotnet build`
   - `dotnet run`
 - Upon success, the program will begin running in your console.
