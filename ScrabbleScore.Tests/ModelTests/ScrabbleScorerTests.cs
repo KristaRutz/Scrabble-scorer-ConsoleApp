@@ -19,5 +19,17 @@ namespace ScrabbleScore.Tests
     {
       Assert.AreEqual(3, ScrabbleScorer.Score("rat"));
     }
+
+    [TestMethod]
+    public void Score_ScoreCountsBonusLetters_Int()
+    {
+      Assert.AreEqual(13, ScrabbleScorer.Score("quit"));
+    }
+
+    [TestMethod]
+    public void Score_ScoreCountsAllBonusLetters_Int()
+    {
+      Assert.AreEqual(33, ScrabbleScorer.Score("ADBFKJQ"));
+    }
   }
 }
