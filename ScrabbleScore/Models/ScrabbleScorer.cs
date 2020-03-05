@@ -21,10 +21,19 @@ namespace ScrabbleScore.Models
 
     public static Regex TenPoints = new Regex("[QZ]", RegexOptions.IgnoreCase);
 
+    public static Regex NonAlpha = new Regex("[^a-zA-Z]");
 
 
     public static int Score(string userword)
     {
+      if (userword.Length == 0)
+      {
+        throw new Exception("Your word length cannot be zero.");
+      }
+      else if (NonAlpha.Matches(userword).Count > 0)
+      {
+        throw new Exception("Scrabble does not have scores for non-letter characters.");
+      }
       int score = 0;
       MatchCollection onePointMatches = OnePoint.Matches(userword);
       MatchCollection twoPointMatches = TwoPoints.Matches(userword);

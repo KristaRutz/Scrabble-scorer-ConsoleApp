@@ -6,8 +6,31 @@
 
 ## Description
 
-This application lets the user input a word and returns the scrabble point value of the word. The program then begins again, allowing the user to continuously enter new words.
-It can be found on [GitHub](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp). It does so using this and this technology or concept.
+This application lets the user input a word and returns the scrabble point value of the word. The program then begins again, allowing the user to continuously enter new words. It does so using regular expressions, exception handling, and MSTest.
+It can be found on [GitHub](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp).
+
+_Sample program output:_
+
+```
+Enter your word to calculate it's Scrabble score.
+=>
+ERROR: Your word length cannot be zero.
+Enter your word to calculate it's Scrabble score.
+000
+ERROR: Scrabble does not have scores for non-letter characters.
+Enter your word to calculate it's Scrabble score.
+joy
+'joy' is worth 13 points.
+Enter your word to calculate it's Scrabble score.
+opopo
+'opopo' is worth 9 points.
+Enter your word to calculate it's Scrabble score.
+banana
+'banana' is worth 8 points.
+Enter your word to calculate it's Scrabble score.
+krista
+'krista' is worth 10 points.
+```
 
 ## Installation / Set-up
 
@@ -36,16 +59,15 @@ Download or clone the repository to run this program locally! _This program requ
 <details>
   <summary>Expand specs for this project</summary>
 
-| Spec                                                                          | Example Input | Expected Output |
-| :---------------------------------------------------------------------------- | :------------ | :-------------- |
-| user types in a word, program returns number                                  |               |                 |
-| program returns 1 for certain letters                                         | "a"           | 1               |
-| program correctly counts letters in a word                                    | "rat"         | 3               |
-| program correctly gives a "bonus" score for certain letters                   | "q"           | 10              |
-| program correctly adds up all letters with differing values and returns total | "dog"         | 5               |
-
-<!-- |                                                                          | exception handling: user enters one letter word | "b"             | "nope" |
-| exception handling: user enters non-letter characters                         | "b! a!"                                         | "nope"          | -->
+| Spec                                                                          | Example Input                                    | Expected Output |
+| :---------------------------------------------------------------------------- | :----------------------------------------------- | :-------------- |
+| user types in a word, program returns number                                  |                                                  |                 |
+| program returns 1 for certain letters                                         | "a"                                              | 1               |
+| program correctly counts letters in a word                                    | "rat"                                            | 3               |
+| program correctly gives a "bonus" score for certain letters                   | "q"                                              | 10              |
+| program correctly adds up all letters with differing values and returns total | "dog"                                            | 5               |
+|                                                                               | exception handling: user enters zero letter word | ""              | "nope" |
+| exception handling: user enters non-letter characters                         | "b! a!"                                          | "nope"          |
 
 </details>
 <details>
