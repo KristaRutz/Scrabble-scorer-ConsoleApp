@@ -23,8 +23,12 @@ namespace ScrabbleScore.Tests
       //arrange
       // act
       //assert
-      Assert.AreEqual(1, ScrabbleScorer.Score("Test"));
+      Assert.AreEqual(1, ScrabbleScorer.Score("A"));
     }
-
+    [TestMethod]
+    public void Score_ScoreCountsLetters_Int()
+    {
+      Assert.AreEqual(3, ScrabbleScorer.Score("rat"));
+    }
   }
 }

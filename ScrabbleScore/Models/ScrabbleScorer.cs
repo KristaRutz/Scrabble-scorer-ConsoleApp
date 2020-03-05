@@ -8,6 +8,8 @@ namespace ScrabbleScore.Models
 
     public static int Score(string userword)
     {
+      // userword.length 
+      // 
       return 1;
     }
   }
