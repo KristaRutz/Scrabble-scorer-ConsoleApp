@@ -1,13 +1,13 @@
 # Scrabble Scorer (C# Console Application)
 
-#### A An console-based application to determine Scrabble points where the user can input a word and see the score, hosted on [GitHub](https://github.com/KristaRutz/). _Last Updated 03.05.2020._
+#### A An console-based application to determine Scrabble points where the user can input a word and see the score, hosted on [GitHub](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp). _Last Updated 03.05.2020._
 
 #### By _**Krista Rutz, Steven Fleming**_
 
 ## Description
 
-This application lets the user... and does...
-It might even be hosted on hosted on [GitHub](https://github.com/KristaRutz/). It does so using this and this technology or concept.
+This application lets the user input a word and returns the scrabble point value of the word. The program then begins again, allowing the user to continuously enter new words.
+It can be found on [GitHub](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp). It does so using this and this technology or concept.
 
 ## Installation / Set-up
 
@@ -15,10 +15,10 @@ Download or clone the repository to run this program locally! _This program requ
 
 - Download or clone this repo.
   - **To Download ZIP:**
-    - Select "Download" on the [GitHub Repository](https://github.com/KristaRutz/) site
+    - Select "Download" on the [GitHub Repository](https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp) site
     - Once downloaded, open the ZIP and extract files. The new folder will be created as 'ProjectName.Solution'.
   - **To Clone:**
-    - Clone from command line into your Desktop: `$ git clone https://github.com/KristaRutz/...`
+    - Clone from command line into your Desktop: `$ git clone https://github.com/KristaRutz/Scrabble-scorer-ConsoleApp.git`
     - The new directory will be created as 'Desktop/ProjectName.Solution'.
 - Once you have stored the files locally, execute the following commands.
   - Navigate to the application directory: `$ cd ProjectName.Solution/ProjectName`
@@ -36,24 +36,23 @@ Download or clone the repository to run this program locally! _This program requ
 <details>
   <summary>Expand specs for this project</summary>
 
-| Spec | Example Input | Expected Output |
-| :--- | :------------ | :-------------- |
-| user types in a word, program returns number |||
-| program returns 1 for certain letters | "a" | 1 | 
-| program correctly counts letters in a word | "rat" | 3 |
-| program correctly gives a "bonus" score for certain letters | "q" | 10 | 
-| program correctly adds up all letters with differeing values and returns total | "dog" | 5 | 
-| exception handling: user enters one letter word |"b"| "nope" |
-| exception handling: user enters non-letter characters |"b! a!"| "nope" |
-
+| Spec                                                                           | Example Input                                   | Expected Output |
+| :----------------------------------------------------------------------------- | :---------------------------------------------- | :-------------- |
+| user types in a word, program returns number                                   |                                                 |                 |
+| program returns 1 for certain letters                                          | "a"                                             | 1               |
+| program correctly counts letters in a word                                     | "rat"                                           | 3               |
+| program correctly gives a "bonus" score for certain letters                    | "q"                                             | 10              |
+| program correctly adds up all letters with differeing values and returns total | "dog"                                           | 5               |
+| <!--                                                                           | exception handling: user enters one letter word | "b"             | "nope" |
+| exception handling: user enters non-letter characters                          | "b! a!"                                         | "nope"          | --> |
 
 </details>
 <details>
   <summary>Expand user stories for this project</summary>
 
-| As a _User-Type_, | I want... | so that... |
-| :---------------- | :-------- | :--------- |
-
+| As a _User-Type_,    | I want...                                    | so that...                                           |
+| :------------------- | :------------------------------------------- | :--------------------------------------------------- |
+| As a Scrabble Player | I want an app that can add up my tile scores | so that I can calculate potential scores more easily |
 
 </details>
 
@@ -63,7 +62,7 @@ Download or clone the repository to run this program locally! _This program requ
 
 ## Support and contact details
 
-Please contact me if you run into any issues or have questions, ideas or concerns. I can be contacted at <krista.rutz@pomona.edu>. Feel free to create a pull request for updates - _contributions to the code are encouraged!_
+Please contact me if you run into any issues or have questions, ideas or concerns. Krista can be contacted at <krista.rutz@pomona.edu>. Feel free to fork and create a pull request for updates - _contributions to the code are encouraged!_
 
 ### License
 
